@@ -1,0 +1,42 @@
+.logo {
+  font-size: 3rem;
+}
+
+.miNavbar {
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: aqua;
+}
+
+.navbar-toggler {
+  background-color: rgba(0, 255, 255, 0.58);
+}
+
+/* *{
+    border: solid 1px red;
+} */
+.skills__iconos {
+  font-size: 3rem;
+}
+
+.violeta {
+  color: blueviolet;
+}
+
+.azul {
+  color: blue;
+}
+
+.amarillo {
+  color: rgb(255, 179, 0);
+}
+
+.celeste {
+  color: cadetblue;
+}
