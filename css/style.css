@@ -36,10 +36,12 @@ a {
 /* ----------NAVBAR---------- */
 .navbar {
   box-shadow: var(--box-shadow);
+  background-color: rgba(0, 0, 0, .7);
 }
 
 .navbar .nav-link {
   font-size: 20px;
+  margin-left: 10px;
   font-weight: 700;
 }
 
@@ -66,7 +68,7 @@ a {
 
 /* ----------HERO---------- */
 .hero {
-  background-image: url(../assets/Fondo.jpg);
+  background-image: url(../assets/Fondo2.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
