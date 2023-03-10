@@ -135,10 +135,12 @@ section {
 
 
 /* ----------SKILLS---------- */
+#skills{
+  padding-top: 20px;
+}
 .skills__iconos {
   font-size: 3rem;
 }
-
 
 .violeta {
   color: blueviolet;
@@ -154,4 +156,12 @@ section {
 
 .celeste {
   color: cadetblue;
+}
+
+/* ----------FEATURES---------- */
+.col-img{
+  background-image: url(../assets/features.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
 }
