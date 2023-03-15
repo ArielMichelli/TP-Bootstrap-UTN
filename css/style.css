@@ -29,6 +29,11 @@ a {
   text-decoration: none;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+}
+
 .hero h1 {
   font-size: 4rem;
 }
@@ -137,11 +142,26 @@ section {
 
 
 /* ----------SKILLS---------- */
-#skills{
+#skills {
   padding-top: 20px;
 }
+
 .skills__iconos {
   font-size: 3rem;
+  transition: all .5s ease;
+}
+
+.skills__iconos:hover {
+  scale: 1.5;
+}
+
+.barrita {
+  transition: all .5s ease;
+}
+
+.barrita:hover {
+  transform: scale(1.05);
+  height: 22px;
 }
 
 .violeta {
@@ -161,9 +181,50 @@ section {
 }
 
 /* ----------FEATURES---------- */
-.col-img{
+.col-img {
   background-image: url(../assets/features.jpg);
   background-position: center;
   background-size: cover;
   min-height: 500px;
+}
+
+/* ----------PROYECTS---------- */
+.proyect {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  height: 300px;
+}
+
+.proyect .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 30px;
+  display: flex;
+  place-content: center;
+  align-items: center;
+  transition: all .4s ease;
+  opacity: 0;
+}
+
+.proyect img,
+.link_proyect {
+  transition: all .4s ease;
+}
+
+.proyect:hover .overlay {
+  opacity: 1;
+}
+
+.proyect:hover img {
+  transform: scale(1.1);
+}
+
+.link_proyect:hover {
+  font-size: 1.7rem;
+  text-decoration: underline;
 }
