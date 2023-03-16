@@ -195,7 +195,7 @@ section {
 }
 
 /* ----------PROYECTS---------- */
-.proyect {
+.project {
   position: relative;
   z-index: 2;
   overflow: hidden;
@@ -204,7 +204,7 @@ section {
   border: solid 1px black;
 }
 
-.proyect .overlay {
+.project .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -219,20 +219,52 @@ section {
   opacity: 0;
 }
 
-.proyect img,
-.link_proyect {
+.project img,
+.link_project {
   transition: all .4s ease;
 }
 
-.proyect:hover .overlay {
+.project:hover .overlay {
   opacity: 1;
 }
 
-.proyect:hover img {
+.project:hover img {
   transform: scale(1.1);
 }
 
-.link_proyect:hover {
+.link_project:hover {
   font-size: 1.7rem;
   text-decoration: underline;
 }
+
+/* ----------CONTACT---------- */
+
+/* ----------FOOTER---------- */
+.footer {
+  padding: 30px;
+  background-color: var(--dark);
+}
+
+.footer .logo {
+  width: 150px;
+  height: 150px;
+}
+
+.contenedor__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer a {
+  color: #888;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
