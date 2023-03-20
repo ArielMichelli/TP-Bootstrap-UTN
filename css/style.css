@@ -249,6 +249,12 @@ section {
   width: 150px;
   height: 150px;
 }
+@media (max-width:765px) {
+  .footer .logo {
+    width: 90px;
+    height: 90px;
+  }
+}
 
 .contenedor__logo {
   display: flex;
