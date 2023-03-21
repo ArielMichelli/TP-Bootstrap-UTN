@@ -101,7 +101,7 @@ img {
 section {
   /* padding-top: 120px;
   padding-bottom: 120px; */
-  padding: 80px 0px;
+  padding: 100px 0px;
 }
 
 .card-effect {
@@ -148,9 +148,6 @@ section {
 
 
 /* ----------SKILLS---------- */
-#skills {
-  padding-top: 20px;
-}
 
 .skills__iconos {
   font-size: 3rem;
@@ -249,6 +246,7 @@ section {
   width: 150px;
   height: 150px;
 }
+
 @media (max-width:765px) {
   .footer .logo {
     width: 90px;
@@ -273,4 +271,3 @@ section {
 .footer a:hover {
   color: #fff;
 }
-
